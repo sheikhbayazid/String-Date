@@ -13,6 +13,8 @@
 		401D518626CE1EE40079CBFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401D518526CE1EE40079CBFB /* Preview Assets.xcassets */; };
 		401D519126CE1EE40079CBFB /* Date_TimeIntervalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D519026CE1EE40079CBFB /* Date_TimeIntervalTests.swift */; };
 		401D519C26CE1EE40079CBFB /* Date_TimeIntervalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D519B26CE1EE40079CBFB /* Date_TimeIntervalUITests.swift */; };
+		401D51AA26CE206B0079CBFB /* String+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D51A926CE206B0079CBFB /* String+Date.swift */; };
+		401D51AC26CE229F0079CBFB /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D51AB26CE229F0079CBFB /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		401D519726CE1EE40079CBFB /* Date+TimeIntervalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Date+TimeIntervalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		401D519B26CE1EE40079CBFB /* Date_TimeIntervalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date_TimeIntervalUITests.swift; sourceTree = "<group>"; };
 		401D519D26CE1EE40079CBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401D51A926CE206B0079CBFB /* String+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Date.swift"; sourceTree = "<group>"; };
+		401D51AB26CE229F0079CBFB /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				401D517E26CE1EE20079CBFB /* Date_TimeIntervalApp.swift */,
+				401D51A926CE206B0079CBFB /* String+Date.swift */,
+				401D51AB26CE229F0079CBFB /* Date+Extension.swift */,
 				401D518026CE1EE20079CBFB /* ContentView.swift */,
 				401D518226CE1EE40079CBFB /* Assets.xcassets */,
 				401D518726CE1EE40079CBFB /* Info.plist */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				401D518126CE1EE20079CBFB /* ContentView.swift in Sources */,
+				401D51AC26CE229F0079CBFB /* Date+Extension.swift in Sources */,
+				401D51AA26CE206B0079CBFB /* String+Date.swift in Sources */,
 				401D517F26CE1EE20079CBFB /* Date_TimeIntervalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
